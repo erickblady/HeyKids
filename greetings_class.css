@@ -1,0 +1,165 @@
+/*! CSS Used from: https://d35aaqx5ub95lt.cloudfront.net/css/app-b0e00b85.css */
+img{border-style:none;}
+*,:after,:before{box-sizing:inherit;font-family:din-round,sans-serif;outline:none;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+@media (min-width:700px){
+*,:after,:before{-webkit-user-select:auto;-moz-user-select:auto;-ms-user-select:auto;user-select:auto;}
+}
+::-webkit-input-placeholder{color:#afafaf;font-weight:500;opacity:1;}
+::-moz-placeholder{color:#afafaf;font-weight:500;opacity:1;}
+::-ms-input-placeholder{color:#afafaf;font-weight:500;opacity:1;}
+::placeholder{color:#afafaf;font-weight:500;opacity:1;}
+._2KZ79{cursor:pointer;}
+/*! CSS Used from: https://d35aaqx5ub95lt.cloudfront.net/css/session-SessionPage-8cb61397.css */
+._3AEyH{cursor:default;}
+.b7lNu{padding:0 0 4px;}
+._2oqWQ{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAIYYWJr1679HxwcDOaDCZAATBIkgVslurEAdDoMBsNekvMAAAAASUVORK5CYII=) repeat-x 0 100%;}
+._146Zp{display:inline;}
+.ismh0{align-items:center;display:flex;flex-wrap:nowrap;}
+._26uPA{flex-direction:column;margin-bottom:24px;text-align:center;}
+._26uPA img{margin-bottom:12px;width:100%;}
+._3O8X1{border:2px solid #e5e5e5;border-radius:16px;}
+/*! CSS Used from: https://d35aaqx5ub95lt.cloudfront.net/css/skill-ExplanationPage-f4d9c968.css */
+._3AEyH{cursor:default;}
+.b7lNu{padding:0 0 4px;}
+._2oqWQ{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkwAIYYWJr1679HxwcDOaDCZAATBIkgVslurEAdDoMBsNekvMAAAAASUVORK5CYII=) repeat-x 0 100%;}
+._146Zp{display:inline;}
+.ismh0{align-items:center;display:flex;flex-wrap:nowrap;}
+._26uPA{flex-direction:column;margin-bottom:-10px;text-align:center;}
+._26uPA img{margin-bottom:12px;width:35%;}
+._3O8X1{border:2px solid #e5e5e5;border-radius:16px;}
+/*! CSS Used fontfaces */
+@font-face{font-display:swap;font-family:din-round;font-style:normal;font-weight:500;src:url(//d35aaqx5ub95lt.cloudfront.net/fonts/DINNextRoundedLTPro-Regular.woff2) format("woff2"),url(//d35aaqx5ub95lt.cloudfront.net/fonts/DINNextRoundedLTPro-Regular.woff) format("woff");}
+@font-face{font-display:swap;font-family:din-round;font-style:normal;font-weight:700;src:url(//d35aaqx5ub95lt.cloudfront.net/fonts/DINNextRoundedLTPro-Bold.woff2) format("woff2"),url(//d35aaqx5ub95lt.cloudfront.net/fonts/DINNextRoundedLTPro-Bold.woff) format("woff");}
+
+
+
+
+@import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+
+.rwd-table1 {
+  background: white;
+  color: black;
+  border-radius: .4em;
+  overflow: hidden;
+  line-height:2;
+  font-size: 25px;
+}
+
+.rwd-table tr {
+  border-color: #46637f;
+}
+
+.rwd-table1 tr {
+  border-color: red;
+}
+
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}
+
+/*PARA EL AUDIO*/
+
+.player-ctrl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  width: 50%;
+}
+i {
+  font-size: 40px;
+  color: white;
+  line-height: 50px;
+  padding: 13px;
+}
+h1 {
+  font-family: sans-serif;
+  padding-left: 20px;
+  color: #222;
+  font-weight: bold;
+}
+a {
+  background-color: #fd0000;
+  border-radius: 15px;
+  padding: 8px;
+  height: 50px;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+}
